@@ -1,0 +1,20 @@
+# Spring properties
+spring:
+  application:
+     name: client-profile-api  # Service registers under this name
+  freemarker:
+    enabled: false	# Ignore Eureka dashboard FreeMarker templates
+
+# Map the error path to error template (for Thymeleaf)
+error:
+  path=/error
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://sv-bm-03.meganexus.internal:1111/eureka/
+
+# HTTP Server
+server:
+  port: 2103   # HTTP (Tomcat) port
