@@ -1,6 +1,6 @@
-# CORC Client Profile REST API
+#  Client Profile REST API
 
-This project is responsible for handling CRUD and Business operations against CORC client Profile.
+This project is responsible for handling CRUD and Business operations against  client Profile.
 
 To build the project using maven,
 	run : mvn clean install
